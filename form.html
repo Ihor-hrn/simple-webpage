@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML HOME WORK page form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Соцопитування</h1>
+            <nav>
+                <a href="index.html">Попередня сторінка</a>
+            </nav>
+        </header>
+        <main>
+            <form method="post" action="https://formspree.io/mwkpvknb">
+                <label>
+                    Ім'я:
+            <input type="text" placeholder="Ім'я" name="name" required>
+                </label>
+                <br>
+                <label>
+                    Емейл:
+            <input type="email" placeholder="Емейл" name="email" required>
+                </label>
+                <br>
+                <label>
+                    Стать:
+                <input type="radio" name="gender" value="male">Чол
+            
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Жін
+            
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other">Сумніваюсь
+            
+                </label>
+                <br>
+                <label>
+                    Коментарі:
+            <textarea name="comments"></textarea>
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" checked>Погоджуюсь на вічну розсилку і продати душу дияволу
+            
+                </label>
+                <br>
+                <label>
+                    Дата народження:
+            <input type="date" name="age" required>
+                </label>
+                <br>
+
+                <ol>
+                    <li>Що п'єш?<br>
+                        <label><input type="radio" name="drink">Чай</label>
+                        <label><input type="radio" name="drink">Сік</label>
+                        <label><input type="radio" name="drink">Кава</label>
+                    </li>
+                    <li>Коли п'єш?<br>
+                        <label><input type="checkbox" name="day">Зранку</label>
+                        <label><input type="checkbox" name="day">Обід</label>
+                        <label><input type="checkbox" name="day">Вечір</label>
+                    </li>
+                    <li>Як Ви спите?<br>
+                        <label><input type="radio" name="sleep">Лежачи</label>
+                        <label><input type="radio" name="sleep">Стоячи</label>
+                        <label><input type="radio" name="sleep">Не сплю зовсім</label>
+                        <label><input type="radio" name="sleep">Що таке сон???</label>
+                    </li>
+                    <li>Якщо Вас це турбує і Ви хочете про це поговорити, то введіть номер і з Вами зв'яжуться відповідні органи:<br>
+                        <label><input type="tel" name="tel"></label>
+                    </li>
+                    <li>На скільки Ви були щирі у відповідях?(1-не щирий, 10-Мамою клянусь)
+                        <br>
+                        1<input type="range" min="1" max="10">10
+                    </li>
+                </ol>
+                    <img src="img/liar.jpg" alt="" width="70">                    
+                    <img src="img/sad.jpg" alt="" width="70">
+                    <img src="img/happy.jpg" alt="" width="70">
+                    <br>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+</html>
